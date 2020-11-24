@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio4</title>
+    <style type="text/css">
+    tr.diferente{
+        background-color: yellow;
+    }</style>
+</head>
+<body>
+    <table >
+       <tr class="diferente">
+           <th colspan="2">Sistema de Gestao Academica</th>
+       </tr>
+       <tr>
+           <th colspan="2">MANUTENCAO DE USUARIOS DO SISTEMA INTERNO</th>
+       </tr>
+       <tr>
+           <td>Login:</td>
+           <td><input type="text" name="text" size="44"></td>
+       </tr>
+       <tr>
+        <td>Senha:</td>
+        <td><input type="password" name="senha" size="44"></td>
+    </tr>
+    <tr>
+        <td>Status</td>
+        <td><select>
+            <option value="1">Ativo</option>
+            <option value="1">Inativo</option>
+        </select>Ativo/Inativo</td>
+    </tr>
+    <tr>
+        <td>Tipo</td>
+        <td>
+            <label for="tec">
+                <input id="tec" type="radio" name="tipo">Tecnico
+             </label>
+             <label for="pro">
+                <input id="pro" type="radio" name="tipo">Professor
+             </label>
+             <label for="alu">
+                <input id="alu" type="radio" name="tipo">Aluno
+             </label>
+        </td>
+    </tr>
+    <tr>
+        <td>Data da Criacao</td>
+        <td><input type="date" name="data"></td>
+    </tr>
+    <tr>
+        <td>perfil</td>
+        <td>
+            <label for="conv">
+                <input id="conv" type="radio" name="perfil">convidado
+            </label>
+             <label for="adm">
+                <input id="adm" type="radio" name="perfil">Administrador
+             </label>
+        </td>
+    </tr>
+    <tr>
+        <td>Observacao</td>
+        <td>
+            <textarea rows="4" cols="39" style="resize:none"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <label for="comp">
+                <input id="comp" type="radio" name="perfil">Compras
+            </label>
+             <label for="bi">
+                <input id="bi" type="radio" name="perfil">Biblioteca
+             </label>
+              <label for="aca">
+                <input id="aca" type="radio" name="perfil">Academico
+              </label>
+
+        </td>
+    </tr>
+    <tr>
+        <td>Modulos</td>
+        <td>
+            <label for="doc">
+                <input id="doc" type="radio" name="perfil">Documentacação
+            </label>
+             <label for="re">
+                <input id="re" type="radio" name="perfil">Recursos humanos
+             </label>
+             
+        </td>
+    </tr>
+    <tr>
+        <th colspan="2">
+        <button type="submit" name="cadastrar">Cadastrar</button>   <button type="reset" name="excluir">Excluir</button>
+    </th>
+        </tr>
+    </table>
+    
+</body>
+</html>

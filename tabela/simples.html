@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uma tabela simples</title>
+    <style type="text/css">
+    caption{
+        caption-side: top;
+    }
+    table{
+        border-collapse: collapse;
+        margin: auto;
+        width: 400px;
+    }
+    table,tr,td,th{
+        border: 1px solid blue;
+    }
+    thead{
+        background-color: blue;
+        color: white;
+    }
+    tbody{
+        background-color: #eeeeee;
+    }
+    tfoot{
+        color: red;
+    }
+    tr.diferente{
+        background-color: #dddddd;
+    }
+    tbody tr.haver{
+        background-color: green;
+    }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption><strong>Preco das frutas</strong></caption>
+    <thead>
+        <tr>
+            <th>Frutas</th>
+            <th>Qtd</th>
+            <th>Preço</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="Diferente">
+            <td>Maça</td>
+            <td>1</td>
+            <td>R$0,25</td>
+        </tr>
+        <tr>
+            <td>Abacaxi</td>
+            <td>2</td>
+            <td>R$0,50</td>
+        </tr>
+        <tr>
+            <td>Laranja</td>
+            <td>3</td>
+            <td>R$0,50</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>Total</th>
+            <th>6</th>
+            <th>8,00</th>
+        </tr>
+    </tfoot>
+</table>
+<p><a href="index.html">voltar ao inicio</a></p>
+</body>
+</html>
